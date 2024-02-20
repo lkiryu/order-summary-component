@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 100%);
+    width: 450px;
+    border-radius: 15px;
+}
+
+.card img{
+    border-radius: 15px 15px 0 0;
+}
+
+.card .title{
+    font-size: 26px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 40px 0 20px;
+}
+
+.card .description{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 22px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.plan ul{
+    margin-right: 70px;
+}
+
+.plan .plan-type{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.plan .price{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan .change-plan{
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 100%);
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
