@@ -1,0 +1,45 @@
+@media(max-width:425px){
+    .card{
+        width: 300px;
+    }
+
+    .card img{
+        width: 300px;
+    }
+
+    .card .title{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .card .description{
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .plan{
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+
+    .plan img{
+        width: 48px;
+    }
+
+    .plan, .card .description, .proceed{
+        width: 90%;
+    }
+
+    .plan img, .plan ul{
+        margin-right: 10px;
+    }
+
+    .plan .plan-type{
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .cancel{
+        margin-bottom: 30px;
+    }
+}
